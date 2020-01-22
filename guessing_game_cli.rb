@@ -9,7 +9,7 @@ def run_guessing_game
   elsif(user_input == 'exit')
     "GoodBye!"
   else
-    puts 'Sorry! The computer guessed <number>.'
+    puts "Sorry! The computer guessed #{}."
   end
   binding.pry
 end
